@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 580px;
+  --breakpoint-md: 780px;
+  --breakpoint-lg: 1100px;
+  --breakpoint-xl: 1500px;
+  --color-primary: #734BDF;
+  --font-onest: "Onest", sans-serif;
+}
+@utility container{
+  @apply mx-auto
+}
