@@ -6,7 +6,7 @@ const Event = () => {
   return (
     <div
       className="bg-cover bg-center bg-no-repeat py-25
-      bg-[url('../../public/BackgroundImg.png')]"
+      bg-[url('/BackgroundImg.png')]"
     >
       <SecHead
         text="Our Event Schedule"

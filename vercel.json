@@ -1,0 +1,6 @@
+{
+  "installCommand": "npm install --prefix evenza",
+  "buildCommand": "npm run build --prefix evenza",
+  "outputDirectory": "evenza/dist",
+  "framework": "vite"
+}
