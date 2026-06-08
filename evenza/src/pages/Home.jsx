@@ -5,6 +5,7 @@ import Marquee from '../components/Marquee'
 import Uncover from '../components/Uncover'
 import Core from '../components/Core'
 import Event from '../components/Event'
+import Speaker from '../components/Speaker'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
      <Uncover/>
      <Core/>
      <Event/>
+     <Speaker/>
     </>
   )
 }
